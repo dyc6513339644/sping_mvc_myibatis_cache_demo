@@ -1,0 +1,41 @@
+/*添加按钮 */
+.addbtn button{
+	margin:auto auto 10px auto;
+} 
+
+/*按钮样式*/
+.a_child,.a_collect,.a_track { display:inline-block; margin-right:10px; color:#fff; border-radius:5px; padding:5px 10px}
+.a_child {background:#ef8a80}
+.a_collect { background:#27ae60}
+.a_track { background:#2980b9}
+.a_collect:hover { background:#2cc76c; color:#fff; text-decoration:none}
+.a_track:hover { background:#2f92d4; color:#fff; text-decoration:none}
+.a_child:hover { background:#e74c3c; color:#fff; text-decoration:none}
+
+/*模态框样式*/
+.update_model {
+	margin: auto;
+}
+
+.update_model td {
+	padding: 5px 0px;
+}
+
+.add_model {
+	margin: auto;
+}
+
+.add_model td {
+	padding: 5px 0px;
+}
+
+/* 分页控件*/
+.pages{
+	float: right; 
+}
+#currentPage{
+width: 20px;
+}
+#pageSize{
+width: 20px;
+}
